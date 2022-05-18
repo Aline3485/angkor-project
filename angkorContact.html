@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><strong>AngkorWat</strong></title>
-</head>
-<body>
-    <nav>
-        <ul>
+    <link rel="stylesheet" href="angkor.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <img src="/images/logo-modified.png" alt="logo" class="logo" />
+      </div>
+      <div class="faq">
+        <p></p>
+      </div>
+      <div class="contact">
+        <h1>Formulaire de contact</h1>
+        <form action="/action_page.php">
+          <label for="fname">Nom & prénom</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Votre nom et prénom"
+          />
 
-            <li>Accueil</li>
-            <li>Histoire</li>
-            <li>Galeries/ Visites</li>
-            <li>FAQ</li>
-            <li>Contact</li>
-            
+          <label for="sujet">Sujet</label>
+          <input
+            type="text"
+            id="sujet"
+            name="sujet"
+            placeholder="L'objet de votre message"
+          />
+
+          <label for="emailAddress">Email</label>
+          <input
+            id="emailAddress"
+            type="email"
+            name="email"
+            placeholder="Votre email"
+          />
+
+          <label for="subject">Message</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Votre message"
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Envoyer" />
+        </form>
+      </div>
+<footer>
+      <nav>
+        <ul>
+          <li><a href="/angkorHome.html"><img src ="/images/angkor-vat.png" height="80px" width="60px"></a> </a></li>
+          <li><a href="/angkorstory.html"><img src="/images/livre-dhistoire.png" alt="livredhistoire" height="80px" width="60px"></a></li>
+          <li><a href="/angkorPict.html"> <img src="/images/pictures.png" alt="logoappareil" height="70px" width="60px"></a></li>
+          <!-- <li><a href="/angkorFAQ.html">FAQ</a></li> -->
+          <li><a href="/angkorContact.html"><img src="/images/contact.png" alt="contact" height="70px" width="60px"></a></li>
         </ul>
-    </nav>
-    
-</body>
+      </nav>
+    </footer>
+    </div>
+  </body>
 </html>
