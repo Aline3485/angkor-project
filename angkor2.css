@@ -160,6 +160,7 @@ ul {
   align-content: center;
   flex-direction: column;
   background-color: rgba(172, 247, 247, 0.749);
+  margin-bottom: 4rem;
 }
 
 .storyparagraph,
@@ -172,6 +173,7 @@ ul {
   opacity: 95%;
   background-color: rgb(165, 200, 243);
 }
+
 span {
   font-weight: bold;
 }
