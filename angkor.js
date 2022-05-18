@@ -1,17 +1,4 @@
-// const sidenav = document.getElementById("mySidenav");
-// const openBtn = document.getElementById("openBtn");
-// const closeBtn = document.getElementById("closeBtn");
 
-// openBtn.onclick = openNav;
-// closeBtn.onclick = closeNav;
-
-// /* Set the width of the side navigation to 250px */
-// const openNav = () => sidenav.classList.add("active");
-  
-
-
-// /* Set the width of the side navigation to 0 */
-// const closeNav = () => sidenav.classList.remove("active");
 
 (function(){
     //If you want to include more images, add the link name and URL of the image in the array list below.
@@ -102,13 +89,13 @@
     })();
 
 
-    const prevScrollpos = window.pageYOffset;
+const prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  const currentScrollPos = window.pageYOffset;
+const currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("nav").style.top = "0";
+    document.querySelector("nav").style.bottom = "0";
   } else {
-    document.getElementById("nav").style.top = "-50px";
+    document.querySelector("nav").style.bottom = "-100px";
   }
   prevScrollpos = currentScrollPos;
 }
