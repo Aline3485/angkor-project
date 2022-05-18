@@ -1,5 +1,3 @@
-
-
 (function(){
     //If you want to include more images, add the link name and URL of the image in the array list below.
         let images_list = [
@@ -87,7 +85,6 @@
             dots[i].addEventListener("click", dot_click, false);
         }
     })();
-
 
 const prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
