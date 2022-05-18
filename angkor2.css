@@ -68,6 +68,7 @@ body {
 
 .logo {
   height: 5rem;
+  box-shadow: 5px 5px 5px 2px #717171;
 }
 
 .grostitre {
@@ -77,6 +78,7 @@ body {
   transform: translate(-50%, -50%);
   left: 50%;
   background-color: rgb(200, 245, 248);
+  box-shadow: 12px 12px 2px 1px #717171;
 }
 /* .cachelogo {
   display: flex;
@@ -110,15 +112,9 @@ nav {
   opacity: 80%;
   transition: bottom 0.1s;
   overflow: hidden;
+ 
 }
-#navbar {
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
-}
+
 
 nav a {
   float: left;
@@ -161,6 +157,7 @@ ul {
   flex-direction: column;
   background-color: rgba(172, 247, 247, 0.749);
   margin-bottom: 4rem;
+  
 }
 
 .storyparagraph,
@@ -168,10 +165,11 @@ ul {
 .ethymologie {
   border-radius: 10px;
   padding: 3px;
-  margin: 5px;
+  margin: 20px 5px 20px 5px;
   text-align: center;
   opacity: 95%;
   background-color: rgb(165, 200, 243);
+  box-shadow: 10px 5px 5px 5px #717171;
 }
 
 span {
@@ -183,14 +181,16 @@ span {
   align-items: center;
   flex-direction: column;
   border: solid 1px;
-  border-radius: 5%;
+  border-radius: 10px;
   margin: 5px;
   padding: 5px;
+ 
 }
 
 #hcg-slider-1 .hcg-slide-container {
   width: auto;
   height: auto;
+  box-shadow: 10px 10px 10px 10px #a0a0a0;
 }
 .hcg-slider {
   text-align: center;
