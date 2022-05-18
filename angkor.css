@@ -1,5 +1,7 @@
-body {font-family: Arial, Helvetica, sans-serif;
-  padding: 0px;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
 
   .top {
 
@@ -78,7 +80,7 @@ li {
   list-style: none;
 }
 
-@media{
+@media (min-width = 600px){
   nav{
     right: 2%;
   }
